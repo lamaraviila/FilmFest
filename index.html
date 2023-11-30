@@ -33,24 +33,36 @@
     </section>
     <!-- seccion de busqueda y categoria -->
 <header class="heder-box">
+    <img src="img-series/logo-p.png" alt="">
     <ul>
-        <li><a href="">series</a></li>
-        <li><a href="">peliculas</a></li>
-        <li><a href="">categoria</a></li>
-        <li><a href="">mi lista</a></li>
-        <div class="buscar-box">
-            <h4>busca tu pelicula o serie favorita</h4>
-            <input type="text" placeholder="buscar.." required>
-            <div class="btn-box">
-                <i class="fa fa-search"></i>
+        <li><a href="#series">series</a></li>
+        <li><a href="#peliculas">peliculas</a></li>
+        <details class="menu">
+            <summary>CATEGORIES</summary>
+            <div class="menu-categories">
+                <a href="#terror">Terror</a>
+                <a href="#comedia">Comedia</a>
+                <a href="#crimen">crimen</a>
+                <a href="#fantasia">fantasia</a>
+                <a href="#accion">accion</a>
+                <a href="#sci-fi">Sci-fi</a>
             </div>
-        </div>
+        </details>
     </ul>
+    <div class="buscar-box">
+        <h4>busca tu pelicula o serie favorita</h4>
+        <input type="text" placeholder="buscar.." required>
+        <div class="btn-box">
+            <i class="fa fa-search"></i>
+        </div>
+    </div>
 </header>
     <section class="search container">
     </section>
     <!-- seccion de recomendad -->
+    <main id="series">
         <h2>lista recomendada</h2>
+<section>
     <div class="swiper mySwiper">
             <div class="swiper-wrapper">
 
@@ -196,7 +208,7 @@
     </div>
 </section>
 <!-- seccion de crimenes  -->
-<section class="series container">
+<section class="series container" id="crimen">
     <h2>series de crimenes</h2>
 <div class="swiper mySwiper">
         <div class="swiper-wrapper">
@@ -341,7 +353,7 @@
 </div>
 </section>
 <!-- seccion de comedia  -->
-<section class="series container">
+<section class="series container" id="comedia">
     <h2>series de comedia</h2>
 <div class="swiper mySwiper">
         <div class="swiper-wrapper">
@@ -497,7 +509,7 @@
 </div>
 </section>
 <!-- seccion de terror -->
-<section class="series container">
+<section class="series container" id="terror">
     <h2>series de terror</h2>
 <div class="swiper mySwiper">
         <div class="swiper-wrapper">
@@ -643,8 +655,10 @@
         </div>
 </div>
 </section>
+</main>
+<main id="peliculas">
 <!-- seccion de recomendado de peliculas -->
-<section class="series container">
+<section class="series container" >
     <h2>lista recomendada</h2>
 <div class="swiper mySwiper">
         <div class="swiper-wrapper">
@@ -793,7 +807,7 @@
 </div>
 </section>
 <!-- seccion de fantasia  -->
-<section class="series container">
+<section class="series container" id="fantasia">
 <h2> peliculas de Fantasia</h2>
 <div class="swiper mySwiper">
 <div class="swiper-wrapper">
@@ -934,7 +948,7 @@
 </div>
 </section>
 <!-- seccion de accion  -->
-<section class="series container"> 
+<section class="series container" id="accion"> 
 <h2>peliculas de Accion</h2>
 <div class="swiper mySwiper">
     <div class="swiper-wrapper">
@@ -1080,7 +1094,7 @@
 </div>
 </section>
 <!-- seccion de sci-fi -->
-<section class="series container">
+<section class="series container" id="sci-fi">
 <h2> peliculas de Sci-Fi</h2>
 <div class="swiper mySwiper">
     <div class="swiper-wrapper">
@@ -1227,6 +1241,7 @@
 </section>
 <section class="icons container">
 </section>
+</main>
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="script.js" ></script>
 </body>
