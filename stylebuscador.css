@@ -1,0 +1,1241 @@
+@import url('https://fonts.googleapis.com/css2?family=Alumni+Sans+Collegiate+One:ital@1&family=Black+Ops+One&family=Dancing+Script:wght@700&family=Merriweather:wght@300&family=Montserrat:ital,wght@0,900;1,100;1,400&family=Noto+Sans+JP:wght@300&family=Noto+Sans+NKo+Unjoined:wght@400;700&family=Pixelify+Sans:wght@500&family=Young+Serif&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-align: none;
+}
+body {
+    font-family: 'Montserrat';
+    background: linear-gradient(
+        to   right ,
+        #450023,#18001e,rgb(0, 39, 59)
+        
+        );
+        color: #ffffff;
+}
+.buscar-box {
+    position: relative;
+    left: 1rem;
+    bottom: 0px;
+    display: flex;
+    top: 1rem;
+    margin-bottom: 3rem;
+}
+
+.buscar-box input{
+    width: 30rem;
+    height: 40px;
+    padding: 0 20px;
+    font-size: 18px;
+    color: #0b0011;
+    outline: none;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    transition: all 1s ease;
+}
+.buscar-box  a{
+    margin-bottom: 2rem;
+    padding: 4px;
+    font-size: 20px;
+    color: #ffffff;
+    border: 2px solid #1500a1;
+    border-radius: 4px;
+}
+.buscar-box > div :hover {
+    background-color: #000000;
+    box-shadow: 0 0 10px #1500a1;
+}
+.btn-box{
+    position: absolute;
+    top: 0;
+    bottom: 10%;
+    right: 0;
+    background: linear-gradient(
+        to   right ,
+       #a10051,#380046,rgb(0, 64, 97) );
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    text-align: center;
+    color: #ffffff;
+    font-size: 20px;
+    border-radius: 50%;
+    cursor: pointer;    
+}
+
+main{
+    width: 100%;
+    height: auto;
+}
+main > div{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main > div>input{
+    width: 150px;
+    height: 20px;
+    border-radius: 20px;
+    text-align: center;
+}
+.peliculass{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 250px);
+    grid-template-rows: repeat(250, 300px);
+    gap: 20px;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+
+}
+
+.overlay{
+    display: none;
+    width: 100%;
+    height: 100%;
+}
+
+.cartelera :hover >li > article{
+    display: block ;
+}
+
+
+.peliculass :nth-child(1){  
+    background-image: url(img-series/17.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(2){  
+    background-image: url(img-series/18.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(3){  
+    background-image: url(img-series/19.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(4){  
+    background-image: url(img-series/20.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(5){  
+    background-image: url(img-series/21.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(6){  
+    background-image: url(img-series/22.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(7){  
+    background-image: url(img-series/23.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(8){  
+    background-image: url(seires-crimenes/criminal1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(9){  
+    background-image: url(seires-crimenes/criminal2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(10){  
+    background-image: url(seires-crimenes/criminal3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(11){  
+    background-image: url(seires-crimenes/criminal4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(12){  
+    background-image: url(seires-crimenes/criminal5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(13){  
+    background-image: url(seires-crimenes/criminal6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(14){  
+    background-image: url(seires-crimenes/criminal7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(15){  
+    background-image: url(seires-comedia/comedia1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(16){  
+    background-image: url(seires-comedia/comedia2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(17){  
+    background-image: url(seires-comedia/comedia3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+
+.peliculass :nth-child(18){  
+    background-image: url(seires-comedia/comedia4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(19){  
+    background-image: url(seires-comedia/comedia5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+.peliculass :nth-child(20){  
+    background-image: url(seires-comedia/comedia6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(21){  
+    background-image: url(seires-comedia/comedia7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+.peliculass :nth-child(22){  
+    background-image: url(series-terror/terror1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+.peliculass :nth-child(23){  
+    background-image: url(series-terror/terror2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+.peliculass :nth-child(24){  
+    background-image: url(series-terror/terror3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+.peliculass :nth-child(25){  
+    background-image: url(series-terror/terror4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+.peliculass :nth-child(26){  
+    background-image: url(series-terror/terror5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+.peliculass :nth-child(27){  
+    background-image: url(series-terror/terror6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+.peliculass :nth-child(28){  
+    background-image: url(series-terror/terror7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+.peliculass :nth-child(29){  
+    background-image: url(peliculas-recomendado/recomendado1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(30){  
+    background-image: url(peliculas-recomendado/recomendado2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(31){  
+    background-image: url(peliculas-recomendado/recomendado3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(32){  
+    background-image: url(peliculas-recomendado/recomendado4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(33){  
+    background-image: url(peliculas-recomendado/recomendado5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(34){  
+    background-image: url(peliculas-recomendado/recomendado6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(35){  
+    background-image: url(peliculas-recomendado/recomendado7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+.peliculass :nth-child(36){  
+    background-image: url(peliculas-accion/accion1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(37){  
+    background-image: url(peliculas-accion/accion2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(38){  
+    background-image: url(peliculas-accion/accion3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(39){  
+    background-image: url(peliculas-accion/accion4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(40){  
+    background-image: url(peliculas-accion/accion5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(41){  
+    background-image: url(peliculas-accion/accion6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+
+.peliculass :nth-child(42){  
+    background-image: url(peliculas-fantasia/fantasia1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+.peliculass :nth-child(43){  
+    background-image: url(peliculas-fantasia/fantasia2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+.peliculass :nth-child(44){  
+    background-image: url(peliculas-fantasia/fantasia3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+}
+.p3liculass :nth-child(45){  
+    background-image: url(peliculas-fantasia/fantasia4.jpg);
+    background-position: center;
+    background-repeat: norepeat;
+    background-size: 250px 300px;
+
+}
+.peliculass :nth-child(46){  
+    background-image: url(peliculas-fantasia/fantasia5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+.peliculass :nth-child(47){  
+    background-image: url(peliculas-fantasia/fantasia6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+.peliculass :nth-child(48){  
+    background-image: url(peliculas-fantasia/fantasia7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 250px 300px;
+
+}
+@media screen and (max-width: 767px) {
+    .peliculass {
+        grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); 
+        gap: 10px; 
+    }
+    .buscar-box {
+        position: relative;
+        left: 0rem;
+        bottom: 0px;
+        display: flex;
+        top: 1rem;
+        margin-bottom: 3rem;
+        font-size: 11px;
+}
+ 
+.peliculass :nth-child(1){  
+    background-image: url(img-series/17.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(2){  
+    background-image: url(img-series/18.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(3){  
+    background-image: url(img-series/19.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(4){  
+    background-image: url(img-series/20.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(5){  
+    background-image: url(img-series/21.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(6){  
+    background-image: url(img-series/22.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(7){  
+    background-image: url(img-series/23.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(8){  
+    background-image: url(seires-crimenes/criminal1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(9){  
+    background-image: url(seires-crimenes/criminal2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(10){  
+    background-image: url(seires-crimenes/criminal3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(11){  
+    background-image: url(seires-crimenes/criminal4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(12){  
+    background-image: url(seires-crimenes/criminal5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(13){  
+    background-image: url(seires-crimenes/criminal6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(14){  
+    background-image: url(seires-crimenes/criminal7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(15){  
+    background-image: url(seires-comedia/comedia1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(16){  
+    background-image: url(seires-comedia/comedia2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(17){  
+    background-image: url(seires-comedia/comedia3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+
+.peliculass :nth-child(18){  
+    background-image: url(seires-comedia/comedia4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(19){  
+    background-image: url(seires-comedia/comedia5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(20){  
+    background-image: url(seires-comedia/comedia6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(21){  
+    background-image: url(seires-comedia/comedia7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(22){  
+    background-image: url(series-terror/terror1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(23){  
+    background-image: url(series-terror/terror2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(24){  
+    background-image: url(series-terror/terror3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(25){  
+    background-image: url(series-terror/terror4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(26){  
+    background-image: url(series-terror/terror5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(27){  
+    background-image: url(series-terror/terror6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(28){  
+    background-image: url(series-terror/terror7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(29){  
+    background-image: url(peliculas-recomendado/recomendado1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(30){  
+    background-image: url(peliculas-recomendado/recomendado2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(31){  
+    background-image: url(peliculas-recomendado/recomendado3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(32){  
+    background-image: url(peliculas-recomendado/recomendado4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(33){  
+    background-image: url(peliculas-recomendado/recomendado5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(34){  
+    background-image: url(peliculas-recomendado/recomendado6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(35){  
+    background-image: url(peliculas-recomendado/recomendado7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(36){  
+    background-image: url(peliculas-accion/accion1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(37){  
+    background-image: url(peliculas-accion/accion2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(38){  
+    background-image: url(peliculas-accion/accion3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(39){  
+    background-image: url(peliculas-accion/accion4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(40){  
+    background-image: url(peliculas-accion/accion5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(41){  
+    background-image: url(peliculas-accion/accion6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(42){  
+    background-image: url(peliculas-fantasia/fantasia1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(43){  
+    background-image: url(peliculas-fantasia/fantasia2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(44){  
+    background-image: url(peliculas-fantasia/fantasia3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(45){  
+    background-image: url(peliculas-fantasia/fantasia4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(46){  
+    background-image: url(peliculas-fantasia/fantasia5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(47){  
+    background-image: url(peliculas-fantasia/fantasia6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(48){  
+    background-image: url(peliculas-fantasia/fantasia7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+}
+@media (max-width: 480px) {
+    .buscar-box a {
+        padding: 5px;
+        margin-left: 10px;
+    }
+ .buscar-box input {
+    width: 15rem;
+    }
+    
+.peliculass :nth-child(1){  
+    background-image: url(img-series/17.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(2){  
+    background-image: url(img-series/18.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(3){  
+    background-image: url(img-series/19.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(4){  
+    background-image: url(img-series/20.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(5){  
+    background-image: url(img-series/21.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(6){  
+    background-image: url(img-series/22.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(7){  
+    background-image: url(img-series/23.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(8){  
+    background-image: url(seires-crimenes/criminal1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(9){  
+    background-image: url(seires-crimenes/criminal2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(10){  
+    background-image: url(seires-crimenes/criminal3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(11){  
+    background-image: url(seires-crimenes/criminal4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(12){  
+    background-image: url(seires-crimenes/criminal5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(13){  
+    background-image: url(seires-crimenes/criminal6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(14){  
+    background-image: url(seires-crimenes/criminal7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(15){  
+    background-image: url(seires-comedia/comedia1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(16){  
+    background-image: url(seires-comedia/comedia2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(17){  
+    background-image: url(seires-comedia/comedia3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+
+.peliculass :nth-child(18){  
+    background-image: url(seires-comedia/comedia4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(19){  
+    background-image: url(seires-comedia/comedia5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(20){  
+    background-image: url(seires-comedia/comedia6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(21){  
+    background-image: url(seires-comedia/comedia7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(22){  
+    background-image: url(series-terror/terror1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(23){  
+    background-image: url(series-terror/terror2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(24){  
+    background-image: url(series-terror/terror3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(25){  
+    background-image: url(series-terror/terror4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(26){  
+    background-image: url(series-terror/terror5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(27){  
+    background-image: url(series-terror/terror6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(28){  
+    background-image: url(series-terror/terror7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(29){  
+    background-image: url(peliculas-recomendado/recomendado1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(30){  
+    background-image: url(peliculas-recomendado/recomendado2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(31){  
+    background-image: url(peliculas-recomendado/recomendado3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(32){  
+    background-image: url(peliculas-recomendado/recomendado4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(33){  
+    background-image: url(peliculas-recomendado/recomendado5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(34){  
+    background-image: url(peliculas-recomendado/recomendado6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(35){  
+    background-image: url(peliculas-recomendado/recomendado7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(36){  
+    background-image: url(peliculas-accion/accion1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(37){  
+    background-image: url(peliculas-accion/accion2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(38){  
+    background-image: url(peliculas-accion/accion3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(39){  
+    background-image: url(peliculas-accion/accion4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(40){  
+    background-image: url(peliculas-accion/accion5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(41){  
+    background-image: url(peliculas-accion/accion6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+
+.peliculass :nth-child(42){  
+    background-image: url(peliculas-fantasia/fantasia1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(43){  
+    background-image: url(peliculas-fantasia/fantasia2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(44){  
+    background-image: url(peliculas-fantasia/fantasia3.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(45){  
+    background-image: url(peliculas-fantasia/fantasia4.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(46){  
+    background-image: url(peliculas-fantasia/fantasia5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(47){  
+    background-image: url(peliculas-fantasia/fantasia6.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+.peliculass :nth-child(48){  
+    background-image: url(peliculas-fantasia/fantasia7.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 150px 200px;
+
+}
+    
+
+}
+
+
