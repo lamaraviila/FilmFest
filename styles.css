@@ -86,48 +86,6 @@ cursor: pointer;
 .heder-box a:hover{
 color: #9302b8;
 }
-.buscar-box {
-    position: relative;
-    left: 1rem;
-    bottom: 0px;
-    display: flex;
-    justify-content: flex-end;
-    top: 1rem;
-}
-.buscar-box input{
-    width: 0;
-    height: 40px;
-    padding: 0 20px;
-    font-size: 18px;
-    color: #0b0011;
-    outline: none;
-    border: 1px solid #000000;
-    border-radius: 20px;
-    transition: all 1s ease;
-}
-.btn-box{
-    position: absolute;
-    top: 0;
-    bottom: 10%;
-    right: 0;
-    background: linear-gradient(
-        to   right ,
-       #a10051,#380046,rgb(0, 64, 97) );
-    width: 45px;
-    height: 45px;
-    line-height: 45px;
-    text-align: center;
-    color: #ffffff;
-    font-size: 20px;
-    border-radius: 50%;
-    cursor: pointer;    
-}
-.buscar-box:hover input{
-    width: 640px;
-}
-.buscar-box input :focus{
-    width: 640px;
-}
 .menu-categories {
     display: flex;
     background-color: #000000bf;
@@ -325,7 +283,8 @@ margin-bottom: 20px;
 }
 .menu-categories{
   position: relative;
-  top: 50px;
+  top: 32px;
+  right: 3rem;
   background-color: #000000db;  
   width: 100%;
   flex-wrap: wrap;
@@ -336,7 +295,7 @@ margin-bottom: 20px;
 summary{
     position: absolute;
     right: 0;
-    left: 180px;
+    left: 252px;
     top: 5px;
 }
 }
