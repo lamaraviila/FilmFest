@@ -60,6 +60,11 @@ body {
 }
 .heder-box{
     display: flex;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    transition: top 0.3s;
+    z-index: 999;
     justify-content: space-around;
     background-color: #000000a3;
     height: 70px;
@@ -69,20 +74,25 @@ body {
     display: flex;
     padding: 20px 20px 20px 20px;
 }
-.heder-box a{
-    padding: 30px;
+summary {
+padding: 16px;
+cursor: pointer;
+}
+.heder-box a {
+    padding-left: 24px;
     font-size: 20px;
     color: #ffffff;
 }
 .heder-box a:hover{
 color: #9302b8;
 }
-.buscar-box{
+.buscar-box {
     position: relative;
     left: 1rem;
-    bottom: 5px;
+    bottom: 0px;
     display: flex;
     justify-content: flex-end;
+    top: 1rem;
 }
 .buscar-box input{
     width: 0;
@@ -98,6 +108,7 @@ color: #9302b8;
 .btn-box{
     position: absolute;
     top: 0;
+    bottom: 10%;
     right: 0;
     background: linear-gradient(
         to   right ,
@@ -112,10 +123,16 @@ color: #9302b8;
     cursor: pointer;    
 }
 .buscar-box:hover input{
-    width: 240px;
+    width: 640px;
 }
 .buscar-box input :focus{
-    width: 240px;
+    width: 640px;
+}
+.menu-categories {
+    display: flex;
+    background-color: #000000bf;
+    text-align: center;
+
 }
 .series h2{
 font-size: 25px;
@@ -184,6 +201,15 @@ margin-bottom: 20px;
     box-shadow:  0 0 20px #0b0011;
     cursor: pointer;
 }
+@media (min-width: 1280px) {
+    .slider-box img {
+        width: 78rem;
+    }
+    .heder-box img {
+        width: 8rem;
+         height: 8rem;
+    }
+}
 @media (max-width:991px) {
     body{
         min-height: 0vh;
@@ -199,6 +225,7 @@ margin-bottom: 20px;
     }
     .slider-box{
         width: 100%;
+        margin: 20px;
 
     }
     .texto{
@@ -206,13 +233,122 @@ margin-bottom: 20px;
         padding: 0;
     }
     .slider-box img {
-        width: 68rem;
+        width: 35rem;
     }
-
-
+    .heder-box a {
+        padding: 10px;
 }
-@media (min-width: 1200px) {
-    .slider-box img {
-        width: 78rem;
+.buscar-box h4{
+    font-size: 6px;
+    display: none;
+}
+.heder-box a {
+    padding: 14px;
+    font-size: 16px;
+}
+.heder-box {
+    width: 100%;
+}
+.buscar-box input {
+    height: 31px;
+}
+.btn-box {
+        width: 41px;
+        height: 41px;
+        border-radius: 42%;
+}
+.buscar-box:hover input {
+    width: 182px;
+}
+.heder-box a {
+    font-size: 16px;
+}
+.heder-box{
+    display: flex;
+    transition: top 0.3s;
+    background-color: #fff; 
+    z-index: 999;
+    justify-content: space-around;
+    background-color: #000000a3;
+    height: 70px;
+    width: 100%;
+}
+.menu-categories{
+    flex-wrap: wrap;
+    width: 10rem;
+}
+}
+
+@media (max-width: 620px) {
+        .slider-box img {
+            width: 24rem;
     }
+    .menu-categories {
+        flex-wrap: wrap;
+    }
+}
+@media (max-width: 480px) {
+    .slider-box img {
+        width: 21rem;
+}
+.buscar-box input {
+    height: 36px;
+    width: 0;
+}
+.buscar-box:hover input{
+    width: 39rem;
+}
+.buscar-box input :focus{
+    width: 39rem;
+}
+.buscar-box {
+    position: absolute;
+    right: 1rem;
+    top: 16px;
+}
+.btn-box {
+    top: 0px;
+    width: 47px;
+    height: 47px;
+}
+.btn-box i{
+    position: absolute;
+    top: 10px;
+    right: 8px;
+    font-size: 29px;
+}
+.heder-box ul {
+    padding: 19px 20px 20px 0px;
+    position: absolute;
+    top: 60px;
+    left: 71px;
+}
+.menu-categories{
+  position: relative;
+  top: 50px;
+  background-color: #000000db;  
+  width: 100%;
+  flex-wrap: wrap;
+}
+.heder-box a {
+    font-size: 16px;
+}
+summary{
+    position: absolute;
+    right: 0;
+    left: 180px;
+    top: 5px;
+}
+}
+.menu-categories a{
+    display: flex;
+    justify-content: space-around;
+    font-size: 20px;
+    padding: 10px;
+    margin-top: 30px;
+    text-align: center;
+}
+.heder-box img {
+    width: 5rem;
+     height: 5rem;
 }
