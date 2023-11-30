@@ -134,6 +134,46 @@ color: #9302b8;
     text-align: center;
 
 }
+
+
+#cerrar{
+    position: relative;
+    display: block;
+    background: #380046;
+    cursor: pointer;
+    width: 5rem;
+    border-radius: 4px;
+    text-decoration: uppercase;
+    color: #ffffff;
+    font-size: 18px;
+    overflow: hidden;
+    transition: all 500ms ease;
+    border: 2px solid rgb(153, 0, 255);
+    margin-bottom: 40px;
+    z-index: 0;
+    font-size: 700;
+    left: 95px;
+}
+
+#trailer{
+    position: relative;
+    display: block;
+    background: #380046;
+    cursor: pointer;
+    width: 5rem;
+    border-radius: 4px;
+    text-decoration: uppercase;
+    color: #ffffff;
+    font-size: 18px;
+    overflow: hidden;
+    transition: all 500ms ease;
+    border: 2px solid rgb(153, 0, 255);
+    margin-bottom: 40px;
+    z-index: 0;
+    font-size: 700;
+    top: 65px;
+}
+
 .series h2{
 font-size: 25px;
 font-weight: 400;
@@ -152,6 +192,8 @@ margin-bottom: 20px;
     display: block;
     width: 100%;
 }
+
+
 .overlay{
     background:  #000000c4;
     position: absolute;

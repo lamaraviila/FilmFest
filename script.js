@@ -13,3 +13,14 @@ const swiper = new Swiper('.mySwiper',{
         loop:true,
 }
 )
+
+const modal = document.querySelector('#modal')
+const button = document.querySelector('#trailer')
+const buttonCerrar = document.querySelector('#cerrar')
+button.addEventListener('click', () => {
+    modal.style.display = 'block'
+    buttonCerrar.addEventListener('click', () =>{
+        modal.style.display = 'none'
+    })
+})
+    
